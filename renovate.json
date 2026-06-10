@@ -18,7 +18,7 @@
       "commitMessageSuffix": "[skip ci]",
       "automerge": true,
       "automergeType": "pr",
-      "platformAutomerge": true
+      "ignoreTests": true
     }
   ],
   "customManagers": [
