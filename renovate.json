@@ -8,11 +8,14 @@
   },
   "packageRules": [
     {
-      "description": "Automerge inference-snaps-dev submodule updates",
+      "description": "Automerge inference-snaps-dev updates on the submodule branch",
       "matchManagers": [
         "git-submodules"
       ],
       "matchDepNames": [
+        "dev"
+      ],
+      "matchPackageNames": [
         "canonical/inference-snaps-dev"
       ],
       "commitMessageSuffix": "[skip ci]",
