@@ -15,7 +15,7 @@
       "matchDepNames": [
         "dev"
       ],
-      "commitMessageSuffix": "[skip ci]",
+      "commitBody": "[skip ci]",
       "automerge": true,
       "automergeType": "pr",
       "ignoreTests": true
