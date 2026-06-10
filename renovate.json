@@ -6,6 +6,21 @@
   "git-submodules": {
     "enabled": true
   },
+  "packageRules": [
+    {
+      "description": "Automerge inference-snaps-dev submodule updates",
+      "matchManagers": [
+        "git-submodules"
+      ],
+      "matchDepNames": [
+        "canonical/inference-snaps-dev"
+      ],
+      "commitMessageSuffix": "[skip ci]",
+      "automerge": true,
+      "automergeType": "pr",
+      "platformAutomerge": true
+    }
+  ],
   "customManagers": [
     {
       "customType": "regex",
